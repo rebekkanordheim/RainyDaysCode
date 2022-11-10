@@ -1,7 +1,46 @@
-.cta {
-    background-color: aqua;
+/* Global Styles */
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(../fonts/RobotoCondensed-Regular.ttf) format(truetype);
 }
 
-.cta-large {
-    background-color: aqua;
+.logo,
+h1,
+h2 {
+    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header,
+footer {
+    background: #0A3641;
+    color: #FFF;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #0A3641;
+    margin-left: 30px;
+}
+
+nav li {
+    display: block;
+    padding: 20px 30px;;
+}
+
+a {
+    color: #FFF
+}
+
