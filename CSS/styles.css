@@ -5,12 +5,43 @@
     src: url(../fonts/RobotoCondensed-Regular.ttf) format(truetype);
 }
 
-.logo,
-h1,
+h1 {
+    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
 h2 {
     font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5em;
     text-align: center;
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.logo {
+    padding: 10px;;
+}
+
+.logo {
+    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+ul {
+    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+}
+
+li {
+    text-align: center;
+    font-size: 1.2em;
 }
 
 header {
@@ -19,13 +50,18 @@ header {
     justify-content: space-evenly;
 }
 
-header a {
-    color: #FFF
+footer {
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    text-align: center;
 }
 
 a {
     text-transform: uppercase;
     font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+    text-decoration: none;
 }
 
 header,
@@ -34,35 +70,58 @@ footer {
     color: #FFF;
 }
 
-footer {
-    padding: 20px;
-    text-align: center;
-}
-
 nav {
     background: #0A3641;
     margin-left: 30px;
 }
 
 nav li {
-    display: block;
+    display: inline-block;
     padding: 20px 30px;;
 }
 
 a {
     color: FFF;
+    text-decoration: none;
 }
 
-.welcome {
-    ;
+p {
+    text-align: left;
+    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.selling-points {
-   
+.cta {
+    padding: 10px 50px;
+    background-color: #0A3641;
+    color: #FFF;
+    margin-bottom: 50px;
+
+}
+
+.cta-large {
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.current {
+    text-decoration: underline;
+}
+
+
+.products img {
+    background-color:#FFF;
+    margin: 50px;
+}
+
+.products h3 {
+    margin: 20px;
 }
 
 .featured {
-    
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
 }
 
-
+.welcome__content img 

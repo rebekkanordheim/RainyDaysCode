@@ -1,0 +1,10 @@
+.jackets-specific__details {
+    max-width: 500px;
+    display: grid;
+    text-align: left;
+}
+
+.jackets-specific__images {
+    background-color: blueviolet;
+}
+
