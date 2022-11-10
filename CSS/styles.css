@@ -19,6 +19,15 @@ header {
     justify-content: space-evenly;
 }
 
+header a {
+    color: #FFF
+}
+
+a {
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 header,
 footer {
     background: #0A3641;
@@ -41,6 +50,19 @@ nav li {
 }
 
 a {
-    color: #FFF
+    color: FFF;
 }
+
+.welcome {
+    ;
+}
+
+.selling-points {
+   
+}
+
+.featured {
+    
+}
+
 
