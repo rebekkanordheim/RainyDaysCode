@@ -20,6 +20,10 @@ h2,
     text-align: center;
 }
 
+.logo {
+    font-size: 2em;
+}
+
 ul {
     font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
@@ -27,13 +31,16 @@ ul {
 
 li {
     text-align: center;
-    font-size: 1.2em;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+header a {
+    padding: 10px;
 }
 
 footer {
@@ -54,19 +61,29 @@ header,
 footer {
     background: #0A3641;
     color: #FFF;
+    padding: 20px;
 }
 
 nav {
     background: #0A3641;
     margin-left: 30px;
     position: fixed;
+    display: none;
     right: 0px;
     z-index: 1000;
-    top:50px;
+    top: 45px;
 }
 
 nav li {
     padding: 20px 30px;
+    display: block;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
     display: block;
 }
 
@@ -104,11 +121,6 @@ p {
 }
 
 
-.products img {
-    background-color:#FFF;
-    margin: 50px;
-}
-
 .products h3 {
     margin: 20px;
 }
@@ -117,4 +129,28 @@ p {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
+}
+
+.products {
+    background-color: rgb(224, 224, 224);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.products img {
+    grid-column: -1/1;
+}
+
+/* jackets page */
+
+.jackets {
+    max-width: 1000vh;
+    margin: auto;
+}
+
+.jacket-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid: 20px;
 }
