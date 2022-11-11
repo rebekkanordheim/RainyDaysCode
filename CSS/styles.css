@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     margin: 0px;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr;
 }
 
 h1,
@@ -55,6 +55,10 @@ a {
     font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
     text-decoration: none;
+}
+
+p {
+    font-size: 1.5em;
 }
 
 header,
@@ -125,32 +129,61 @@ p {
     margin: 20px;
 }
 
-.featured {
-    display: grid;
-    grid-template-columns: 1fr auto;
+.featured,
+.jacket-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    margin: 20px 20px;
 }
 
 .products {
     background-color: rgb(224, 224, 224);
-    display: grid;
-    grid-template-columns: 1fr;
+    max-width: 1000vh;
+    display: flex;
     align-items: center;
-}
-
-.products img {
-    grid-column: -1/1;
 }
 
 /* jackets page */
 
 .jackets {
     max-width: 1000vh;
-    margin: auto;
+    margin: 20px auto;
+
 }
 
-.jacket-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid: 20px;
+.jackets-list {
+    display: flex;
+    margin: 10px;
+    background-color: rgb(224, 224, 224);
+    padding: 50px;
+}
+
+/* Snowy jacket page*/
+
+.jackets-specific {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.jackets-specific  > * {
+    flex: 1;
+}
+
+.product-specific__price {
+    font-size: 2em;
+}
+
+.product-specific__details {
+    padding: 0px 30px; 
+}
+
+/* About us page */
+
+.about {
+    background-color: rgb(224, 224, 224);
+    margin: 20px 0px;
 }

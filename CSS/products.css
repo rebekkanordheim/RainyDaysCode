@@ -1,5 +1,5 @@
 .jackets-specific__details {
-    max-width: 500px;
+    max-width: 1000vh;
     display: grid;
     text-align: left;
 }
