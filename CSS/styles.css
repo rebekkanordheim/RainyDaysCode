@@ -5,32 +5,18 @@
     src: url(../fonts/RobotoCondensed-Regular.ttf) format(truetype);
 }
 
-h1 {
+body {
     font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
-    text-align: center;
+    min-height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
-h2 {
-    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5em;
-    text-align: center;
-    margin-top: 40px;
-}
-
-h3 {
-    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
-    text-align: center;
-}
-
-.logo {
-    padding: 10px;;
-}
-
+h1,
+h2,
 .logo {
     font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
     text-align: center;
 }
 
@@ -73,11 +59,15 @@ footer {
 nav {
     background: #0A3641;
     margin-left: 30px;
+    position: fixed;
+    right: 0px;
+    z-index: 1000;
+    top:50px;
 }
 
 nav li {
-    display: inline-block;
-    padding: 20px 30px;;
+    padding: 20px 30px;
+    display: block;
 }
 
 a {
@@ -92,9 +82,14 @@ p {
 
 .cta {
     padding: 10px 50px;
+    width: 80px;
+    text-align: center;
     background-color: #0A3641;
     color: #FFF;
     margin-bottom: 50px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
 
 }
 
@@ -123,5 +118,3 @@ p {
     grid-template-columns: 1fr auto;
     align-items: center;
 }
-
-.welcome__content img 
