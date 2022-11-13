@@ -1,12 +1,14 @@
 /* Global Styles */
 
+@import "imports/variables.css";
+
 @font-face {
     font-family: "Roboto Condensed";
     src: url(../fonts/RobotoCondensed-Regular.ttf) format(truetype);
 }
 
 body {
-    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--text-all), Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     margin: 0px;
     display: grid;
@@ -17,7 +19,7 @@ h1,
 h2,
 h3,
 .logo {
-    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--text-all), Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
@@ -44,15 +46,15 @@ header {
 
 footer {
     text-transform: uppercase;
-    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(var(--text-all)), Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     text-align: center;
 }
 
 a {
     text-transform: uppercase;
-    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFF;
+    font-family: var(--text-all), Verdana, Geneva, Tahoma, sans-serif;
+    color: var( --text-color);
     text-decoration: none;
     padding: 10px;
 }
@@ -60,18 +62,18 @@ a {
 p {
     font-size: 1.2em;
     text-align: left;
-    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--text-all), Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header,
 footer {
-    background: #0A3641;
-    color: #FFF;
+    background: var(--color-header-footer-border-cta);
+    color: var( --text-color);
     padding: 20px;
 }
 
 nav {
-    background: #0A3641;
+    background: var(--color-header-footer-border-cta);
     display: none;
     position: fixed;
     right: 0px;
@@ -97,8 +99,8 @@ nav li {
     padding: 10px 50px;
     width: 80px;
     text-align: center;
-    background-color: #0A3641;
-    color: #FFF;
+    background-color: var(--color-header-footer-border-cta);
+    color: var( --text-color);
     margin-bottom: 50px;
     border-radius: 5px;
     position: relative;
@@ -111,7 +113,7 @@ nav li {
 }
 
 .products {
-    border: 3px #0A3641 solid;
+    border: 3px var(--color-header-footer-border-cta) solid;
 }
 
 .products p{
@@ -125,9 +127,8 @@ nav li {
     display: grid;
     grid-template-columns: repeat(2, auto);
     max-width: 1000px;
-    margin: 40px auto;
+    margin: 40px 10px;
     padding: 20px;
-    background-color: rgb(224, 224, 224);
 }
 
 /* media queries */

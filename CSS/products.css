@@ -1,7 +1,10 @@
 /* Jackets CSS */
 
 .jackets {
-    max-width: 1000vh;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -17,9 +20,13 @@
 }
 
 .jackets-specific__images {
-    background-color: rgb(224, 224, 224);
+    background-color: var(--color-product-background);
     margin: auto;
     padding: 20px 0px;
+}
+
+.products {
+    background-color: var(--color-product-background);
 }
 
 

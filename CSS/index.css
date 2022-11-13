@@ -5,12 +5,12 @@
 }
 
 .selling-points {
-    background-color: #CED7D9;
+    background-color: var(--color-product-background);
     padding: 40px;
     margin: auto;
 }
 
 .products {
-    background-color: #CED7D9;
+    background-color: var(--color-product-background);
     display: grid;
 }
