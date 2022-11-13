@@ -1,6 +1,19 @@
-.jackets-specific__details {
-    display: grid;
-    text-align: left;
+/* Jackets CSS */
+
+.jackets {
+    max-width: 1000vh;
+}
+
+
+/* Snowy Jackets CSS */
+
+.jackets-specific {
+    margin-bottom: 50px;
+    max-width: 1000px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .jackets-specific__images {
@@ -9,13 +22,13 @@
     padding: 20px 0px;
 }
 
-.jackets-specific {
-    display: flex;
-    flex-direction: column;
-    max-width: 1000px;
+
+.product-specific__details {
+    padding: 0px 30px; 
     margin: auto;
+    max-width: 500px;
 }
 
-.jackets-specific > * {
-    flex: 1;
+.product-specific__price {
+    font-size: 2em;
 }

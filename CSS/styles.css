@@ -5,21 +5,12 @@
     src: url(../fonts/RobotoCondensed-Regular.ttf) format(truetype);
 }
 
-.welcome__content {
-    font-size: 2em;
-}
-
 body {
     font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     margin: 0px;
     display: grid;
     grid-template-rows: auto 1fr auto;
-}
-.selling-points {
-    background-color: #CED7D9;
-    width: 100%;
-    padding: 40px;
 }
 
 h1,
@@ -139,56 +130,4 @@ nav li {
     background-color: rgb(224, 224, 224);
 }
 
-/* jackets page */
-
-.jackets {
-    max-width: 1000vh;
-}
-
-   
-.jackets-specific {
-    margin-bottom: 50px;
-    max-width: 1000px;
-    align-items: center;
-}
-
-
-.product-specific__details {
-    padding: 0px 30px; 
-    margin: auto;
-    max-width: 500px;
-}
-
-.product-specific__price {
-    font-size: 2em;
-}
-
-/* About us page */
-
-.about {
-    background-color: rgb(224, 224, 224);
-    max-width: 1000px;
-    padding: 20px;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.about-info {
-    max-width: 500px;
-    text-align: center;
-    padding: 50px;
-}
-
-.rainydayslogo {
-    max-width: 200px;
-    margin: auto;
-}
-
 /* media queries */
-
-@media (min-width: 600px) {}
-nav li {
-  display: inline-block;
-  padding: 0px;
-}

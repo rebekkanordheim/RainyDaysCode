@@ -1,4 +1,14 @@
+/* Index CSS */
 
+.welcome__content {
+    font-size: 2em;
+}
+
+.selling-points {
+    background-color: #CED7D9;
+    padding: 40px;
+    margin: auto;
+}
 
 .products {
     background-color: #CED7D9;

@@ -1,0 +1,21 @@
+/* About CSS */
+
+.about {
+    background-color: rgb(224, 224, 224);
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-info {
+    max-width: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.rainydayslogo {
+    max-width: 200px;
+    margin: auto;
+}
