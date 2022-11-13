@@ -5,28 +5,28 @@
     src: url(../fonts/RobotoCondensed-Regular.ttf) format(truetype);
 }
 
+.welcome__content {
+    font-size: 2em;
+}
+
 body {
-    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
     min-height: 100vh;
     margin: 0px;
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr auto;
 }
 
 h1,
 h2,
+h3,
 .logo {
-    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 .logo {
     font-size: 2em;
-}
-
-ul {
-    font-family: Roboto Condensed, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2em;
 }
 
 li {
@@ -39,9 +39,6 @@ header {
     justify-content: space-evenly;
 }
 
-header a {
-    padding: 10px;
-}
 
 footer {
     text-transform: uppercase;
@@ -55,10 +52,13 @@ a {
     font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
     text-decoration: none;
+    padding: 10px;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    text-align: left;
+    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header,
@@ -70,12 +70,11 @@ footer {
 
 nav {
     background: #0A3641;
-    margin-left: 30px;
-    position: fixed;
     display: none;
+    position: fixed;
     right: 0px;
-    z-index: 1000;
     top: 45px;
+    padding: 30px 30px;
 }
 
 nav li {
@@ -83,22 +82,13 @@ nav li {
     display: block;
 }
 
+
 #hamburger-menu {
     display: none;
 }
 
 #hamburger-menu:checked ~ nav {
     display: block;
-}
-
-a {
-    color: FFF;
-    text-decoration: none;
-}
-
-p {
-    text-align: left;
-    font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .cta {
@@ -114,64 +104,40 @@ p {
 
 }
 
-.cta-large {
-    margin: 10px;
-    display: inline-block;
-    text-align: center;
-}
-
 .current {
     text-decoration: underline;
 }
 
-
-.products h3 {
-    margin: 20px;
+.products {
+    background-color: #0A3641;
 }
 
 .featured,
-.jacket-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px 20px;
-}
-
-.products {
+.products,
+.jackets-list {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 3px #FFF solid;
     background-color: rgb(224, 224, 224);
-    max-width: 1000vh;
-    display: flex;
-    align-items: center;
 }
 
 /* jackets page */
 
 .jackets {
     max-width: 1000vh;
-    margin: 20px auto;
-
 }
 
-.jackets-list {
-    display: flex;
-    margin: 10px;
-    background-color: rgb(224, 224, 224);
-    padding: 50px;
-}
-
-/* Snowy jacket page*/
-
+   
 .jackets-specific {
     display: flex;
     max-width: 1000px;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 50px;
 }
 
-.jackets-specific  > * {
-    flex: 1;
-}
 
 .product-specific__price {
     font-size: 2em;
@@ -186,4 +152,12 @@ p {
 .about {
     background-color: rgb(224, 224, 224);
     margin: 20px 0px;
+}
+
+/* media queries */
+
+@media (min-width: 600px) {}
+nav li {
+  display: inline-block;
+  padding: 0px;
 }
