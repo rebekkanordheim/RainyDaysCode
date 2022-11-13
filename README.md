@@ -18,27 +18,6 @@ The page also has a "about" page where the user can read about the idea behind R
 
 The website works on Safari Version 16.1 (18614.2.9.1.12), Firefox Developer Edition 107.0b9, Firefox 106.0.5 and Google Chrome Version 107.0.5304.110 as well.
 
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-- hosted link 
-
-OR
-
-* How to run the program
-* Step-by-step bullets
-
-code blocks for commands
-
-## Help
-
-Any advice for common problems or issues.
-
-- command to run if the program contains helper info
 
 ## Authors
 
