@@ -1,10 +1,21 @@
 .jackets-specific__details {
-    max-width: 1000vh;
     display: grid;
     text-align: left;
 }
 
 .jackets-specific__images {
-    background-color: blueviolet;
+    background-color: rgb(224, 224, 224);
+    margin: auto;
+    padding: 20px 0px;
 }
 
+.jackets-specific {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.jackets-specific > * {
+    flex: 1;
+}

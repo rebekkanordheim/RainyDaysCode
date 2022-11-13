@@ -16,6 +16,11 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+.selling-points {
+    background-color: #CED7D9;
+    width: 100%;
+    padding: 40px;
+}
 
 h1,
 h2,
@@ -24,6 +29,12 @@ h3,
     font-family: "Roboto Condensed", Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
+
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
 
 .logo {
     font-size: 2em;
@@ -109,18 +120,22 @@ nav li {
 }
 
 .products {
-    background-color: #0A3641;
+    border: 3px #0A3641 solid;
+}
+
+.products p{
+    font-size: 1.5em;
 }
 
 .featured,
 .products,
-.jackets-list {
+.jackets-list
+ {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: repeat(2, auto);
     max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
-    border: 3px #FFF solid;
     background-color: rgb(224, 224, 224);
 }
 
@@ -132,26 +147,42 @@ nav li {
 
    
 .jackets-specific {
-    display: flex;
-    max-width: 1000px;
-    flex-direction: row;
     margin-bottom: 50px;
+    max-width: 1000px;
+    align-items: center;
 }
 
-
-.product-specific__price {
-    font-size: 2em;
-}
 
 .product-specific__details {
     padding: 0px 30px; 
+    margin: auto;
+    max-width: 500px;
+}
+
+.product-specific__price {
+    font-size: 2em;
 }
 
 /* About us page */
 
 .about {
     background-color: rgb(224, 224, 224);
-    margin: 20px 0px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-info {
+    max-width: 500px;
+    text-align: center;
+    padding: 50px;
+}
+
+.rainydayslogo {
+    max-width: 200px;
+    margin: auto;
 }
 
 /* media queries */
