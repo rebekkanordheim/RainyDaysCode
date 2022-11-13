@@ -16,7 +16,6 @@
 }
 
 .home {
-    background-color: var(--color-product-background);
     max-width: 1000px;
     padding: 20px;
     margin: 20px auto;
