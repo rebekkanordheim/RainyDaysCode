@@ -45,14 +45,12 @@ header {
 
 footer {
     text-transform: uppercase;
-    font-family: var(var(--text-all)), Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     text-align: center;
 }
 
 a {
     text-transform: uppercase;
-    font-family: var(--text-all), Verdana, Geneva, Tahoma, sans-serif;
     color: var( --text-color);
     text-decoration: none;
     padding: 10px;
@@ -61,7 +59,6 @@ a {
 p {
     font-size: 1.2em;
     text-align: left;
-    font-family: var(--text-all), Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header,
