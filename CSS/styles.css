@@ -76,7 +76,7 @@ nav {
     display: none;
     position: fixed;
     right: 0px;
-    top: 45px;
+    top: 60px;
     padding: 20px 0px;
 }
 
@@ -114,7 +114,8 @@ nav li {
     border: 3px var(--color-header-footer-border-cta) solid;
     max-width: 1000px;
     margin: 40px 10px;
-    padding: 20px;
+    padding: 28px;
+    flex: 1 0 100px;
 }
 
 .products p{
@@ -130,10 +131,12 @@ nav li {
 
 .jackets-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     max-width: 1000px;
     margin: 20px auto;
+    gap: 20px;
 }
 
 /* media queries */
