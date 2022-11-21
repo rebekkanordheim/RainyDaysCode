@@ -130,6 +130,7 @@ nav li {
     grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
     align-items: center;
-    max-width: 1000px;    margin: 20px auto;
+    max-width: 1000px;    
+    margin: 20px auto;
     gap: 20px;
 }
