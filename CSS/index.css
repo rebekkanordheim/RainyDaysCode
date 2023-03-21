@@ -4,8 +4,9 @@
     font-size: 2em;
 }
 
+
 .selling-points {
-    background-color: var(--color-product-background);
+    background-color: var(--text-color);
     padding: 40px;
     margin: auto;
     width: 1000px;
@@ -29,13 +30,4 @@
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-}
-.home-a {
-    display: flex;
-    justify-content: center;
-}
-
-.home-a a {
-    align-items: center;
-    margin: 10px;
 }

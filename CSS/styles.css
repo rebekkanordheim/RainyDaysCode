@@ -12,6 +12,7 @@ body {
     margin: 0px;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-color: #0a364152;
 }
 
 h1,
@@ -41,7 +42,6 @@ header {
     align-items: center;
     justify-content: space-evenly;
 }
-
 
 footer {
     text-transform: uppercase;
