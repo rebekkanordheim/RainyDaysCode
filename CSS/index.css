@@ -8,8 +8,16 @@
     background-color: var(--color-product-background);
     padding: 40px;
     margin: auto;
+    width: 1000px;
 }
-
+.selling-points li, ul {
+    display: block;
+    font-size: 22px;
+    padding: 10px;
+}
+.selling-points h2 {
+    text-decoration: underline;
+}
 .products {
     background-color: var(--color-product-background);
     display: grid;
@@ -21,4 +29,13 @@
     margin: 20px auto;
     display: flex;
     flex-direction: column;
+}
+.home-a {
+    display: flex;
+    justify-content: center;
+}
+
+.home-a a {
+    align-items: center;
+    margin: 10px;
 }

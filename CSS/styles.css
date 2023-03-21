@@ -54,6 +54,7 @@ a {
     color: var( --text-color);
     text-decoration: none;
     padding: 10px;
+    margin: 10px;
 }
 
 p {
@@ -96,11 +97,10 @@ nav li {
     text-align: center;
     background-color: var(--color-header-footer-border-cta);
     color: var( --text-color);
-    margin-bottom: 50px;
+/*     margin-bottom: 50px; */
     border-radius: 5px;
     position: relative;
     display: inline-block;
-
 }
 
 .current {
