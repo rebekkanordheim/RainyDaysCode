@@ -12,7 +12,7 @@ body {
     margin: 0px;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background-color: #0a364152;
+    background-color: #7a979e52;
 }
 
 h1,
@@ -95,9 +95,8 @@ nav li {
 .cta {
     padding: 10px 50px;
     text-align: center;
-    background-color: var(--color-header-footer-border-cta);
+    background-image: linear-gradient(to top, #ff4e2f, #F09819);
     color: var( --text-color);
-/*     margin-bottom: 50px; */
     border-radius: 5px;
     position: relative;
     display: inline-block;
@@ -108,21 +107,15 @@ nav li {
 }
 
 .products {
-    border: 3px var(--color-header-footer-border-cta) solid;
-    max-width: 1000px;
+
+    width: 1000px;
     margin: 40px 10px;
+    padding: 20px;
     flex: 1 0 100px;
 }
 
 .products p{
     font-size: 1.5em;
-}
-
-.featured {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    max-width: 1000px;
-    margin: 40px 10px;
 }
 
 .jackets-list {

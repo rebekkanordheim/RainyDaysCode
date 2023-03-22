@@ -6,11 +6,13 @@
 
 
 .selling-points {
-    background-color: var(--text-color);
-    padding: 40px;
-    margin: auto;
+    background-color: rgba(255, 255, 255, 0.465);
+    border-radius: 20px;
     width: 1000px;
+    display: flex;
+    justify-content: center;
 }
+
 .selling-points li, ul {
     display: block;
     font-size: 22px;
@@ -19,15 +21,26 @@
 .selling-points h2 {
     text-decoration: underline;
 }
-.products {
-    background-color: var(--color-product-background);
+
+.featured {
     display: grid;
+    grid-template-columns: repeat(2, auto);
+    max-width: 1000px;
+    margin: 10px;
+}
+.featured h2 {
+    padding: 80px;
 }
 
 .home {
-    max-width: 1000px;
     padding: 20px;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
+}
+.home,
+.home-a,
+.featured {
+    display: flex;
+    justify-content: center;
 }

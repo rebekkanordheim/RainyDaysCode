@@ -10,13 +10,17 @@
 /* Snowy Jackets CSS */
 
 .jackets-specific {
-    margin-bottom: 50px;
-    max-width: 1000px;
-    align-items: center;
+    background-color: rgba(255, 255, 255, 0.465);
+    border-radius: 20px;
+    width: 1000px;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* add auto margin to center horizontally */
+    text-align: center;
 }
+
 
 .jackets-specific__images {
     background-color: var(--color-product-background);
@@ -25,10 +29,30 @@
 }
 
 .products {
-    background-color: var(--color-product-background);
-}
-
-
+    background-color: rgba(255, 255, 255, 0.465);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .products img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .products p {
+    margin-top: auto;
+  }
+  
+  .products a {
+    margin-top: 10px;
+  }
+  
+  
 .product-specific__details {
     padding: 0px 30px; 
     margin: auto;
