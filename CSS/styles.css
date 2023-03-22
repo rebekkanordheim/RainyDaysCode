@@ -21,10 +21,6 @@ h3,
 .logo {
     font-family: var(--text-all), Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-}
-
-h2,
-h3 {
     text-transform: uppercase;
 }
 
