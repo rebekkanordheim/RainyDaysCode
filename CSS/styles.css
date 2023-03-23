@@ -123,3 +123,8 @@ nav li {
     margin: 20px auto;
     gap: 20px;
 }
+
+a:hover {
+    color:#000;
+    background-color: #fff;
+}
