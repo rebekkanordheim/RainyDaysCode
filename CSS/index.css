@@ -8,7 +8,7 @@
 .selling-points {
     background-color: rgba(255, 255, 255, 0.465);
     border-radius: 20px;
-    width: 1000px;
+    max-width: 1000px;
     display: flex;
     justify-content: center;
 }
@@ -23,13 +23,18 @@
 }
 
 .featured {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
     max-width: 1000px;
     margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .featured h2 {
     padding: 80px;
+}
+.products {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .home {

@@ -24,7 +24,6 @@ h3,
     text-transform: uppercase;
 }
 
-
 .logo {
     font-size: 2em;
 }
@@ -52,6 +51,10 @@ a {
     padding: 10px;
     margin: 10px;
 }
+.main-nav:hover {
+    color:var(--color-header-footer-border-cta);
+    background-color: #fff;
+}
 
 p {
     font-size: 1.2em;
@@ -73,12 +76,14 @@ nav {
     top: 60px;
     padding: 20px 0px;
 }
+.header-logo {
+    max-width: 200px;
+}
 
 nav li {
     padding: 20px 30px;
     display: block;
 }
-
 
 #hamburger-menu {
     display: none;
@@ -92,10 +97,14 @@ nav li {
     padding: 10px 50px;
     text-align: center;
     background-image: linear-gradient(to top, #ff4e2f, #F09819);
-    color: var( --text-color);
+    color: var(--text-color);
     border-radius: 5px;
     position: relative;
     display: inline-block;
+}
+.cta:hover {
+    background-image: linear-gradient(to top, var(--color-header-footer-border-cta),#90c7fd);
+    color:#fff;
 }
 
 .current {
@@ -122,9 +131,4 @@ nav li {
     max-width: 1000px;    
     margin: 20px auto;
     gap: 20px;
-}
-
-a:hover {
-    color:#000;
-    background-color: #fff;
 }
