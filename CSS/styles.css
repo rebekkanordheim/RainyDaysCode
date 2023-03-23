@@ -51,8 +51,8 @@ a {
     padding: 10px;
     margin: 10px;
 }
-.main-nav:hover {
-    color:var(--color-header-footer-border-cta);
+.main-nav a:hover {
+    color: #000;
     background-color: #fff;
 }
 
