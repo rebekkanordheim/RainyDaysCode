@@ -11,6 +11,9 @@
     align-items: center;
     flex-direction: column;
 }
+.about h1 {
+    text-decoration: underline;
+}
 
 .about-info {
     max-width: 500px;

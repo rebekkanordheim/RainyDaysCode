@@ -73,7 +73,7 @@ nav {
     display: none;
     position: fixed;
     right: 0px;
-    top: 60px;
+    top: 100px;
     padding: 20px 0px;
 }
 .header-logo {
@@ -112,7 +112,6 @@ nav li {
 }
 
 .products {
-
     width: 1000px;
     margin: 40px 10px;
     padding: 20px;

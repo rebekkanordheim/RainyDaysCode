@@ -13,18 +13,22 @@
 .about {
     background-color: rgba(255, 255, 255, 0.465);
     border-radius: 20px;
-    width: 1000px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
+    flex-direction: column;
     text-align: center;
+}
+
+.jackets-specific h1 {
+    text-decoration: underline;
 }
 
 
 .jackets-specific__images {
-    background-color: var(--color-product-background);
     margin: auto;
     padding: 20px 0px;
 }
@@ -62,4 +66,5 @@
 
 .product-specific__price {
     font-size: 2em;
+    text-align: right;
 }

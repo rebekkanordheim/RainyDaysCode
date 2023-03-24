@@ -1,4 +1,4 @@
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     nav {
         display: block;
         position: static;
@@ -12,3 +12,11 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .jackets-specific {
+      width: auto;
+      margin: 20px;
+    }
+  }
+  
