@@ -73,7 +73,7 @@ nav {
     display: none;
     position: fixed;
     right: 0px;
-    top: 120px;
+    top: 150px;
     padding: 20px 0px;
 }
 .header-logo {
@@ -131,3 +131,4 @@ nav li {
     margin: 20px auto;
     gap: 20px;
 }
+  
