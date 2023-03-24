@@ -97,7 +97,8 @@ nav li {
     padding: 10px 50px;
     text-align: center;
     background-image: linear-gradient(to top, #ff4e2f, #F09819);
-    color: var(--text-color);
+    color: #000;
+    font-size: larger;
     border-radius: 5px;
     position: relative;
     display: inline-block;
