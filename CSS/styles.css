@@ -18,12 +18,15 @@ body {
 h1,
 h2,
 h3,
+h4,
 .logo {
     font-family: var(--text-all), Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
-
+h4 {
+    font-size: 1.5em;
+}
 .logo {
     font-size: 2em;
 }
