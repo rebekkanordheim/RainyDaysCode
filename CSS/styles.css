@@ -135,4 +135,8 @@ nav li {
     margin: 20px auto;
     gap: 20px;
 }
-  
+
+.container img,
+.container2 img {
+    max-width: 200px;
+}
