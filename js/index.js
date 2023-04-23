@@ -88,4 +88,3 @@ async function getProducts() {
 
   productPage();
 ///
-
