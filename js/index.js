@@ -11,7 +11,6 @@ async function getProducts() {
 myApp();
 
 
-
 //Create JavaScript functionality to fetch a single product’s data from WordPress API
   async function getProductById(id) {
     const response = await fetch(`http://cmscarn.local/wp-json/wc/store/products/${id}`);
