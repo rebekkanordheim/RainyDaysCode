@@ -38,7 +38,7 @@ function createProductHTML(product) {
 }
 
 async function OneProductPage() {
-  const productId = 18;
+  const productId = 25;
   const product = await getProductById(productId);
   createProductHTML(product);
 }
@@ -47,6 +47,8 @@ OneProductPage();
 /// Create JavaScript functionality to render a grid of product data in HTML as thumbnails
   async function getProducts() {
     const response = await fetch(`http://cmscarn.local/wp-json/wc/store/products`);
+    /* to display the featured product, you will have to add ?featured=true to the all products endpoint like this: */
+    /* const response = await fetch("http://cmscarn.local/wp-json/wc/store/products?featured=true"); */
     return await response.json();
   }
   
