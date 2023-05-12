@@ -1,8 +1,12 @@
 //Create JavaScript to fetch an array of product data from WordPress API
 
 async function getProducts() {
+  try {
   const response = await fetch("http://cmscarn.local/wp-json/wc/store/products");
   return await response.json();
+  } catch (error) {
+    console.log(error);
+  }
 }
 async function myApp() {
   const products = await getProducts();
@@ -10,10 +14,14 @@ async function myApp() {
 }
 myApp();
 
-//Create JavaScript functionality to fetch a single product’s data from WordPress API
+//Create JavaScript functionality to fetch a single product’s data from WordPress API Using its ID
 async function getProductById(id) {
+  try {
   const response = await fetch(`http://cmscarn.local/wp-json/wc/store/products/${id}`);
   return await response.json();
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 function createProductHTML(product) {
@@ -46,10 +54,14 @@ OneProductPage();
 
 /// Create JavaScript functionality to render a grid of product data in HTML as thumbnails
   async function getProducts() {
+    try{
     const response = await fetch(`http://cmscarn.local/wp-json/wc/store/products`);
     /* to display the featured product, you will have to add ?featured=true to the all products endpoint like this: */
     /* const response = await fetch("http://cmscarn.local/wp-json/wc/store/products?featured=true"); */
     return await response.json();
+    } catch (error) {
+      console.log(error);
+    }
   }
   
   function createProductHTML(product) {
