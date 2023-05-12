@@ -137,6 +137,7 @@ nav li {
 }
 
 .container img,
-.container2 img {
+.container2 img,
+.container-featured img {
     max-width: 200px;
 }
