@@ -56,7 +56,7 @@ OneProductPage();
   async function getProducts() {
     try{
     const response = await fetch(`http://cmscarn.local/wp-json/wc/store/products`);
-    /* to display the featured product, you will have to add ?featured=true to the all products endpoint like this: */
+    /* to display the featured product, you will have to comment oout the const response above and add ?featured=true to the all products endpoint like this: */
     /* const response = await fetch("http://cmscarn.local/wp-json/wc/store/products?featured=true"); */
     return await response.json();
     } catch (error) {
