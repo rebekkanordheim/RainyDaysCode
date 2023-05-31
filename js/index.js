@@ -1,3 +1,7 @@
+
+// NB THIS IS NOT IN USE AT THE MOMENT BUT WAS USED PREVIOUSLY IN MY STUDIES, SEE THE README FILE FOR MORE INFORMATION 
+
+
 //Create JavaScript to fetch an array of product data from WordPress API
 
 async function getProducts() {
