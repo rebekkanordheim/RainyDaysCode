@@ -32,7 +32,7 @@ Rebekka Nordheim, Student at Noroff - Front End Development 1st year student.
 
 Add a more detailed description of what your project entails and set out to do.
 
-This project was my first year exam as a Front End Development student at Noroff. The case for this exam was to make a website for RainyDays, which is a brand that wants to sell jackets so that their customers could keep pushing their comfor zones.
+This project was my first year exam as a Front End Development student at Noroff. The case for this exam was to make a website for RainyDays, which is a brand that wants to sell jackets so that their customers could keep pushing their comfor zones. It is a simple website where you can have a look at the product from Rainy Days and reed about them.
 
 This project is done in the first semester with very basic and simple HTML and CSS, and I also made some wireframes/designs in Figma before the coding. It was a very exciting task to do because I never had done anything that has to do with coding previously, so it was really exciting.
 
@@ -62,7 +62,7 @@ This is all that you need to start this simle website.
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+Make sure to open a pull request so code can be reviewed.
 
 ## Contact
 
@@ -70,12 +70,4 @@ This is where you can leave your social links for people to contact you, such as
 
 [My Twitter page](www.twitter.com)
 
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+[My LinkedIn page](https://no.linkedin.com/in/rebekka-nordheim-903377194)
