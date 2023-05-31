@@ -46,8 +46,6 @@ Make sure to open a pull request so code can be reviewed.
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
-[My Twitter page](www.twitter.com)
-
 [My LinkedIn page](https://no.linkedin.com/in/rebekka-nordheim-903377194)
 
 ## Authors
